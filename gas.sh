@@ -48,9 +48,9 @@ mainmenu() {
     python bom.py
     echo "[√] SpamSms berhasil"
     elif [ $pil == "3" ];then
-    git clone https://github.com/Mister-AM/spam_wa
-    cd spam_wa
-    python spam_wa.py
+    git clone https://github.com/riowahyuc/spam-wa
+    cd spam-wa
+    python spam-wa.py
     echo "[√] SpamWA berhasil di jalankan"
     elif [ $pil == "4" ];then
     exit
